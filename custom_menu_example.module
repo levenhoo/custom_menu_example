@@ -1,0 +1,21 @@
+<?php 
+
+/**
+ * Implements hook_menu(). 
+ */
+function custom_menu_example_menu() {  
+  //basic form element
+  $items['exam'] = array(
+    'title' => 'Basic Page',
+    'page callback' => '_basic_form' ,
+    'access callback' => TRUE, 
+   );  
+  return $items;
+} 
+ 
+ 
+function _basic_form(){
+  return "Hello World";
+} 
+ 
+  

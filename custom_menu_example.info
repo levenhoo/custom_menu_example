@@ -1,0 +1,11 @@
+name = Custom Menu Example
+description = Custom Menu Example
+package = Custom Example
+core = 7.x
+
+; Information added by Drupal.org packaging script on 2014-04-04
+version = 7.x
+core = 7.x
+project = Custom Example
+datestamp = 1396652050
+
